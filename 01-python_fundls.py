@@ -15,7 +15,7 @@
 
 ###################### function with the math module
 
-# import math # need to import this to use the module
+# import math # need to import math to use the module avaible
 
 pi = 3.14
 

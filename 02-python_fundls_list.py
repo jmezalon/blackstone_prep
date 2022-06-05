@@ -100,7 +100,7 @@ capitals = {
 }
 
 # print(capitals['Russia'])
-# get is better because if the key doesn't exist it will return none instead of an erro message that could break your code # =>
+# get is better because if the key doesn't exist it will return none instead of an error message that could break your code # =>
 # print(capitals.get('Haiti')) 
 
 # to list all the keys
@@ -119,7 +119,7 @@ capitals = {
 # remove a key value pair
 # capitals.pop('India')
 
-# clear the diction with 
+# clear the dictionary with 
 # capitals.clear()
 
 # to list using a for loop
