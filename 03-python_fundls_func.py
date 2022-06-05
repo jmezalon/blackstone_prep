@@ -1,7 +1,7 @@
 ###################### functions = a block of code which is executed only when it is called.
 
-from audioop import mul
-from cgitb import text
+# from audioop import mul
+# from cgitb import text
 
 
 def hello(name='Hi'):
