@@ -1,8 +1,8 @@
 ###################### File detection - check if a file exist 
 
-import os
+# import os
 
-path = "/Users/jmezalon/Downloads"
+# path = "/Users/jmezalon/Downloads"
 
 # if os.path.exists(path):   # check if the location exist 
 #     print('That location exists!')
@@ -41,7 +41,7 @@ path = "/Users/jmezalon/Downloads"
 
 # copyfile() = copies content of a file
 # copy() = copyfile() + permission mode + destination can be a directory
-# copy2() = copy() + copies metadata (file's creation and modification times)
+# copy2() = copy() + copies metadata (file's creation and modification times
 
 # import shutil  
 
@@ -49,10 +49,10 @@ path = "/Users/jmezalon/Downloads"
 
 ###################### move files using python 
 
-import os 
+# import os 
 
-source = "copy.md"
-destination = '/Users/jmezalon/Downloads/copy.md'
+# source = "copy.md"
+# destination = '/Users/jmezalon/Downloads/copy.md'
 
 # try:
 #     if os.path.exists(destination):
@@ -63,6 +63,28 @@ destination = '/Users/jmezalon/Downloads/copy.md'
 # except FileNotFoundError:
 #     print(source+" was not found")
 
+# this work exactly the same way if you want to move a folder
 
-###################### 
+###################### delete files using python
 
+# import os
+# import shutil
+
+# path = 'del.txt' 
+# path = 'empty_folder' 
+# path = 'folder'
+
+
+
+# try:
+#     # os.remove(path) # remove file, do not remove empty folder
+#     # os.rmdir(path) # command for removing empty folders, will not delete folders that contains files
+#     shutil.rmtree(path) # be careful with this fucntion, it will remove the directory and all containing files
+# except FileNotFoundError:
+#     print('this file was not found')
+# except PermissionError:
+#     print('you do not have permission to delete this folder')
+# except OSError:
+#     print('you cant delete that using that function')
+# else:
+#     print(path+' was deleted!')
