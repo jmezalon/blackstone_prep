@@ -16,7 +16,7 @@ def make_test(questions):
 
     for question in questions:
         answer = input(question.prompt)
-        if question.answer == answer:
+        if answer == question.answer:
             score+=1
     
     result = "You got " + str(score) + "/" + str(len(questions)) + " correct!"
